@@ -1,0 +1,14 @@
+.page-wrapper {
+    background-image: url(/blog_page/image/hero1.png);
+    height: 90em;
+    width: 90em;
+    color: white;
+    position: relative;
+}
+
+.hero-image::before {
+    content: "";
+    position: absolute;
+    opacity: 0.8;
+    z-index: -1;
+}
